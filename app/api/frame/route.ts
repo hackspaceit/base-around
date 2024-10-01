@@ -40,10 +40,10 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           target: 'https://lu.ma/82fvgfom?tk=cDUEj2',
         },
         {
-          action: 'link',
-          label: 'Devfolio',
-          target: 'https://based-sea.devfolio.co/?ref=b15c3254e7',
-        }, 
+          label: `Next`,
+          target: `${NEXT_PUBLIC_URL}/app/frame2`,
+         
+        },
         
       ],
       image: {
