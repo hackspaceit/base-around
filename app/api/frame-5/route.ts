@@ -42,16 +42,16 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           },
           {
             label: `Read More`,
-            target: `${NEXT_PUBLIC_URL}/api/frame-5`,
+            target: `${NEXT_PUBLIC_URL}/api/frame-4`,
           },
          
       ],
      
       image: {
-        src: `${NEXT_PUBLIC_URL}/ss5.png`,
+        src: `${NEXT_PUBLIC_URL}/ss6.png`,
         
       },
-      postUrl: `${NEXT_PUBLIC_URL}/api/frame-5`,
+      postUrl: `${NEXT_PUBLIC_URL}/api/frame-4`,
 
     }),
   );
