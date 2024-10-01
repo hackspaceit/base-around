@@ -30,34 +30,37 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     );
   }
 
+
   return new NextResponse(
     getFrameHtmlResponse({
       buttons: [
-        
         {
           action: 'link',
-          label: 'Luma Form',
-          target: 'https://lu.ma/82fvgfom?tk=cDUEj2',
+          label: 'Join Odyssey',
+          target: `https://odyssey.unite.io/dashboard?referralCode=20d5d0c7`,
         },
         {
           action: 'link',
-          label: 'Devfolio',
-          target: 'https://based-sea.devfolio.co/?ref=b15c3254e7',
-        }, 
-        
+          label: 'Zealy Task',
+          target: 'https://zealy.io/cw/unite/invite/CY6L_ngZAcK7QTLeAz-LW',
+        },
+        {
+          label: `Next`,
+          target: `${NEXT_PUBLIC_URL}/app/frame2`,
+         
+        },
       ],
+     
       image: {
-        src: `${NEXT_PUBLIC_URL}/ss1.png`,
+        src: `${NEXT_PUBLIC_URL}/ss.png`,
         aspectRatio: '1.91:1',
       },
-      postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
-      state: {
-        page: state?.page + 1,
-        time: new Date().toISOString(),
-      },
+      postUrl: `${NEXT_PUBLIC_URL}/api/frame-3`,
+
     }),
   );
 }
+
 
 export async function POST(req: NextRequest): Promise<Response> {
   return getResponse(req);
