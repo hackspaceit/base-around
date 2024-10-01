@@ -35,25 +35,21 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     getFrameHtmlResponse({
       buttons: [
         {
-          action: 'link',
-          label: 'Bergabung',
-          target: ``,
-        },
-        {
-          action: 'link',
-          label: 'Devfolio',
-          target: '',
-        },
-        {
-          label: `Next`,
-          target: `${NEXT_PUBLIC_URL}/api/frame-2`,
+            action: 'link',
+            label: 'Mint NFT #02',
+            target: `https://zora.co/collect/base:0x5d20bc7ede3858e340887a2cde0db030fc37af2d/2`,
+            
+          },
+          {
+            label: `Next`,
+            target: `${NEXT_PUBLIC_URL}/api/frame-3`,
+          },
          
-        },
       ],
      
       image: {
         src: `${NEXT_PUBLIC_URL}/ss1.png`,
-        aspectRatio: '1.91:1',
+        
       },
       postUrl: `${NEXT_PUBLIC_URL}/api/frame-3`,
 
