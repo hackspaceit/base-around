@@ -37,12 +37,12 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         {
           action: 'link',
           label: 'Join Odyssey',
-          target: `https://odyssey.unite.io/dashboard?referralCode=20d5d0c7`,
+          target: ``,
         },
         {
           action: 'link',
           label: 'Zealy Task',
-          target: 'https://zealy.io/cw/unite/invite/CY6L_ngZAcK7QTLeAz-LW',
+          target: '',
         },
         {
           label: `Next`,
