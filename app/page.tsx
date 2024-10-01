@@ -8,10 +8,9 @@ const frameMetadata = getFrameMetadata({
       label: 'Bergabung',
     },
     {
-      action: 'tx',
-      label: 'Send Base Sepolia',
-      target: `${NEXT_PUBLIC_URL}/api/tx`,
-      postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
+      label: `Informasi Acara`,
+      target: `${NEXT_PUBLIC_URL}/app/frame2`,
+     
     },
   ],
   image: {
