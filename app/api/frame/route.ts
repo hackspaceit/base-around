@@ -42,7 +42,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         {
           action: 'link',
           label: 'Devolio',
-          target: 'https://lu.ma/82fvgfom?tk=cDUEj2',
+          target: 'https://based-sea.devfolio.co/?ref=b15c3254e7',
         }, 
         
       ],
