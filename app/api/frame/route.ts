@@ -41,7 +41,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         },
         {
           label: `Informasi Acara`,
-          target: `${NEXT_PUBLIC_URL}/api/frame2`,
+          target: `${NEXT_PUBLIC_URL}/api/frame-2`,
          
         },
         
@@ -49,7 +49,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       image: {
         src: `${NEXT_PUBLIC_URL}/indo.png`,
       },
-      postUrl: `${NEXT_PUBLIC_URL}/api/frame2`,
+      postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
       state: {
         page: state?.page + 1,
         time: new Date().toISOString(),
