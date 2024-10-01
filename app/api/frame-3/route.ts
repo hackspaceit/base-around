@@ -30,33 +30,33 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     );
   }
 
+
   return new NextResponse(
     getFrameHtmlResponse({
       buttons: [
-        
         {
-          action: 'link',
-          label: 'Luma Form',
-          target: 'https://lu.ma/82fvgfom?tk=cDUEj2',
-        },
-        {
-          label: `About the Event`,
-          target: `${NEXT_PUBLIC_URL}/api/frame-2`,
+            action: 'link',
+            label: 'Interest',
+            target: `https://lu.ma/82fvgfom?tk=cDUEj2`,
+            
+          },
+          {
+            label: `Read More`,
+            target: `${NEXT_PUBLIC_URL}/api/frame-2`,
+          },
          
-        },
-        
       ],
+     
       image: {
-        src: `${NEXT_PUBLIC_URL}/indo.png`,
+        src: `${NEXT_PUBLIC_URL}/ss3.png`,
+        
       },
-      postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
-      state: {
-        page: state?.page + 1,
-        time: new Date().toISOString(),
-      },
+      postUrl: `${NEXT_PUBLIC_URL}/api/frame-3`,
+
     }),
   );
 }
+
 
 export async function POST(req: NextRequest): Promise<Response> {
   return getResponse(req);
