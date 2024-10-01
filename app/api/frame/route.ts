@@ -40,7 +40,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           target: 'https://lu.ma/82fvgfom?tk=cDUEj2',
         },
         {
-          label: `Next`,
+          label: `Informasi Acara`,
           target: `${NEXT_PUBLIC_URL}/app/frame2`,
          
         },
