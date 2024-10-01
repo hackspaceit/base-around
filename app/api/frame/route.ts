@@ -33,9 +33,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   return new NextResponse(
     getFrameHtmlResponse({
       buttons: [
-        {
-          label: `State: ${state?.page || 0}`,
-        },
+        
         {
           action: 'link',
           label: 'Luma Form',
