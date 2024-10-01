@@ -5,11 +5,11 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Bergabung',
+      label: 'Join to Event',
     },
     {
-      label: `Informasi Acara`,
-      target: `${NEXT_PUBLIC_URL}/app/frame2`,
+      label: `Read More`,
+      target: `${NEXT_PUBLIC_URL}/api/frame-2`,
      
     },
   ],
@@ -22,12 +22,12 @@ const frameMetadata = getFrameMetadata({
 });
 
 export const metadata: Metadata = {
-  title: 'zizzamia.xyz',
-  description: 'LFG',
+  title: 'Base Around the World',
+  description: 'Base Around the World Indonesia Hack Day',
   openGraph: {
-    title: 'zizzamia.xyz',
-    description: 'LFG',
-    images: [`${NEXT_PUBLIC_URL}/park-1.png`],
+    title: 'Base Around the World',
+    description: 'Base Around the World Indonesia Hack Day',
+    images: [`${NEXT_PUBLIC_URL}/indo.png`],
   },
   other: {
     ...frameMetadata,
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>zizzamia.xyz</h1>
+      <h1>Base Around the World Indonesia Hack Day Frame by Eldar Faaiz</h1>
     </>
   );
 }
