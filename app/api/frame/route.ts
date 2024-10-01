@@ -38,9 +38,14 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         },
         {
           action: 'link',
-          label: 'OnchainKit',
-          target: 'https://onchainkit.xyz',
+          label: 'Luma Form',
+          target: 'https://lu.ma/82fvgfom?tk=cDUEj2',
         },
+        {
+          action: 'link',
+          label: 'Devolio',
+          target: 'https://lu.ma/82fvgfom?tk=cDUEj2',
+        }, 
         {
           action: 'post_redirect',
           label: 'Dog pictures',
