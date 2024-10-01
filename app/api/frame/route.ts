@@ -44,10 +44,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           label: 'Devolio',
           target: 'https://lu.ma/82fvgfom?tk=cDUEj2',
         }, 
-        {
-          action: 'post_redirect',
-          label: 'Dog pictures',
-        },
+        
       ],
       image: {
         src: `${NEXT_PUBLIC_URL}/indo.png`,
