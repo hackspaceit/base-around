@@ -36,13 +36,14 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       buttons: [
         {
             action: 'link',
-            label: 'Interest',
+            label: 'Join to Event',
             target: `https://lu.ma/82fvgfom?tk=cDUEj2`,
             
           },
           {
-            label: `Read More`,
-            target: `${NEXT_PUBLIC_URL}/api/frame-6`,
+            action: 'link',
+            label: 'Devfolio',
+            target: 'https://based-sea.devfolio.co/?ref=b15c3254e7',
           },
          
       ],
