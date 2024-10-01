@@ -36,12 +36,12 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       buttons: [
         {
           action: 'link',
-          label: 'Join Odyssey',
+          label: 'Bergabung',
           target: ``,
         },
         {
           action: 'link',
-          label: 'Zealy Task',
+          label: 'Devfolio',
           target: '',
         },
         {
