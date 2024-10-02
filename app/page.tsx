@@ -22,10 +22,10 @@ const frameMetadata = getFrameMetadata({
 });
 
 export const metadata: Metadata = {
-  title: 'Base Around the World',
+  title: 'Base Around the World Indonesia',
   description: 'Base Around the World Indonesia Hack Day',
   openGraph: {
-    title: 'Base Around the World',
+    title: 'Base Around the World Indonesia',
     description: 'Base Around the World Indonesia Hack Day',
     images: [`${NEXT_PUBLIC_URL}/indo.png`],
   },
